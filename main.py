@@ -21,3 +21,6 @@ manager.remove_product("Slusalice")
 print("\nNakon uklanjanja proizvoda 'Slusalice':")
 manager.show_products()
 
+manager.products[0].name = "Laptop Pro"
+manager.products[1].quantity = 8
+
