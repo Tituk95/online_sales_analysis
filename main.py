@@ -16,3 +16,8 @@ manager.show_products()
 # Prikaz ukupne vrednosti
 print(f"Ukupna vrednost inventara: {manager.total_value()} RSD")
 
+# Uklanjanje proizvoda "Slusalice"
+manager.remove_product("Slusalice")
+print("\nNakon uklanjanja proizvoda 'Slusalice':")
+manager.show_products()
+
